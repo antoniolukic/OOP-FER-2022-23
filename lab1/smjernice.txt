@@ -1,0 +1,25 @@
+Trbea predati do svog termina labos na ferko
+treba znati i teoriju(ponijet papir i bljieznicu)
+nacrtati dijagrame razreda (sa slajda)
+koja nacela moguzemo vidjeti kroz kod
+(virtualna tablica za apstraktnu klasu je null pointer)
+1. C
+	- pokazivači na virtualnu tablicu
+	- virtualne metode su: dogGreet, dogMenu, catGreet, catMenu
+	- u strukturi su: pokazivač na virtualnu tablicu i pointer na objekt?
+	- nasljeđivanje u C-u stavimo prvo strukturu klase koje želimo naslijediti
+	- kontruktor i creator (će popuniti vrijednostima u zagradama)
+
+2. iz C++ u C nakodirati
+	- mozemo prebaciti u compiler explorer (za strojni kod)
+3.
+	- memorijska cijena dinamičkog polimorfizma (pointer na virtualnu tablicu)
+	- vremenska cijena dinamočkog polimorfizma (kolko ti treba s poziva pointera)
+4.
+	- alokacija mački i pasa na stogu i heapu
+	- malloc je na heapu, int i nešto je na stogu
+5.
+	- pomoću pointera omogućiti dinamički polimorfizam
+	
+6. C++
+	- nemoj u konstruktorima pozivati polimofne pozive
